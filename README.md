@@ -21,7 +21,7 @@ Demo Video: https://youtu.be/7yw0AOvhLqg  (Rev 0 board with bodges/resistors. Th
 * Solder the Pi Stamp RP2040 into place. You can solder directly onto the board, or optionally use the male and female headers to socket mount it. I recommend using the male and female pin headers so you can easily pull the RP2040 out if you need to use it again in the future on another project.
 * Solder the vertical USB_BOOT header into place. The J5 and J6 headers are optional and untested on this design. J5 is for a small OLED screen, and J6 is for debugging.
 * Solder the A500 keyboard connector female headers onto the rear of the PCB. There are two, since some revisions of A500's may have the clock and data pins swapped.
-* I recommend checking all solder joints under magnification to ensure everything is connected with no shorts, 
+* I recommend checking all solder joints under magnification to ensure everything is connected with no shorts.
 
 ## Flashing the Firmware
 First off, a huge thank you to Nine for developing the amigahid-pico, as this design uses its firmware. Firmware is located at: https://github.com/borb/amigahid-pico/
