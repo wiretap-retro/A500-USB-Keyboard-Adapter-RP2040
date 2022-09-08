@@ -21,7 +21,7 @@ This is a USB keyboard adapter I designed a board for to use in my Amiga 500 tow
 
 ## Flashing the Firmware
 First off, a huge thank you to Nine for developing the amigahid-pico, as this design uses its firmware. Firmware is located at: https://github.com/borb/amigahid-pico/
-1. Build the firmware per the instructions at the link above.
+1. Build the firmware per the instructions at https://github.com/borb/amigahid-pico/blob/main/doc/installation.md
 2. Place a jumper on the USB_BOOT pin.
 3. Plug a MicroUSB cable to the PCB's MicroUSB port and plug the other end into the PC you just compiled the firmware on. It will then show up as a mass storage device.
 4. Remove the jumper from the USB_BOOT pin.
