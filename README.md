@@ -4,8 +4,7 @@ A USB keyboard adapter for the Amiga 500 based on the Pi Stamp RP2040
 ## Intro
 This is a USB keyboard adapter I designed a board for to use in my Amiga 500 tower. It is based on the amigahid-pico firmware by borb (nine). The KiCAD files, Gerbers, and BOM are in this repository. The completed board attaches to the A500's keyboard header and provides a USB pin header for your interface device. On my build, I used a pin header to female USB Type A cable that screws into in the rear of my case on a PCI bracket.
 
-Demo Video: https://youtu.be/7yw0AOvhLqg
-The above video shows the Rev 0 board with bodges/resistors. These have been corrected and implemented in Rev 1.
+Demo Video: https://youtu.be/7yw0AOvhLqg  (Rev 0 board with bodges/resistors. These have been corrected and implemented in Rev 1.)
 
 ## Parts
 * PCB: I ordered the PCB's from JLCPCB by uploading the Gerber files, but any PCB house should be able to make these since it is a simple/small design. (PCBway, OSH Park, AllPCB, etc.)
