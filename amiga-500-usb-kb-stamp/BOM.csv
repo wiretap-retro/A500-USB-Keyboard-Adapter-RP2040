@@ -1,0 +1,15 @@
+Reference, Quantity, Value, Footprint, Description, Manufacturer_Name, Manufacturer_Part_Number, Mouser Part Number
+C1 C2 ,2,100nF,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,,,,
+IC1 ,1,TXS0104ED,SOIC127P600X175-14N,"TXS0104ED, Voltage Level Translator, Open Drain 1.65 to 3.6, 2.3 to 5.5V 14-Pin SOIC",Texas Instruments,TXS0104ED,595-TXS0104ED
+J1 ,1,USB3075-30-A,USB307530A,"GCT (GLOBAL CONNECTOR TECHNOLOGY) - USB3075-30-A - USB Connector, Micro USB Type B, USB 2.0, Receptacle, 5 Ways, Surface Mount, Right Angle",GCT (GLOBAL CONNECTOR TECHNOLOGY),USB3075-30-A,640-USB3075-30-A
+J2 ,1,USB_HEADER,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal,,,,
+J3 ,1,Type A,Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical,,,,
+J4 ,1,Type B,Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical,,,,
+J5 ,1,I2C,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,,,,
+J6 ,1,DEBUG,Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical,,,,
+J7 ,1,Power LED,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal,,,,
+J8 ,1,Floppy LED,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal,,,,
+J9 ,1,USB_BOOT,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,,,,
+R1 R4,1,10k,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,,,,
+R2 R3 ,2,TBD,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Match to your LED requirements,,,
+U1 ,1,RP2040_Stamp,SamacSys_Parts:RP2040_Stamp_THT,,,,
