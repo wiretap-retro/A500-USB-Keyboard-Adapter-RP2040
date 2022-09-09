@@ -1,4 +1,4 @@
-# A500-USB-Keyboard-Adapter-RP2040
+# A500 USB Keyboard Adapter RP2040
 A USB keyboard adapter for the Amiga 500 based on the Pi Stamp RP2040
 
 ![front-pcb](RP2040-A500-KB.PNG)
