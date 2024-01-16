@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "A500 RP2040 Stamp Keyboard Adapter"
-Date "2022-08-02"
-Rev "1"
+Date "2024-01-16"
+Rev "2"
 Comp "wiretap"
 Comment1 ""
 Comment2 ""
@@ -378,7 +378,7 @@ KB_DATA_RAW
 Text GLabel 4900 3400 2    50   Input ~ 0
 KB_CLK_RAW
 Wire Wire Line
-	3250 4050 5550 4050
+	3250 4050 3800 4050
 Wire Wire Line
 	5550 3200 5250 3200
 Connection ~ 3250 4050
@@ -725,4 +725,9 @@ Wire Wire Line
 Wire Wire Line
 	900  2250 900  1750
 Connection ~ 900  1750
+Wire Wire Line
+	3800 3800 3800 4050
+Connection ~ 3800 4050
+Wire Wire Line
+	3800 4050 5550 4050
 $EndSCHEMATC

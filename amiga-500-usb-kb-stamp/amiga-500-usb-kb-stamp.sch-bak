@@ -307,7 +307,7 @@ L Device:R_Small R1
 U 1 1 62C250DB
 P 5150 3800
 F 0 "R1" V 5050 3800 50  0000 C CNN
-F 1 "4.7k" V 5250 3800 50  0000 C CNN
+F 1 "10k" V 5250 3800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5150 3800 50  0001 C CNN
 F 3 "~" H 5150 3800 50  0001 C CNN
 	1    5150 3800
@@ -378,7 +378,7 @@ KB_DATA_RAW
 Text GLabel 4900 3400 2    50   Input ~ 0
 KB_CLK_RAW
 Wire Wire Line
-	3250 4050 5550 4050
+	3250 4050 3800 4050
 Wire Wire Line
 	5550 3200 5250 3200
 Connection ~ 3250 4050
@@ -725,4 +725,9 @@ Wire Wire Line
 Wire Wire Line
 	900  2250 900  1750
 Connection ~ 900  1750
+Wire Wire Line
+	3800 3800 3800 4050
+Connection ~ 3800 4050
+Wire Wire Line
+	3800 4050 5550 4050
 $EndSCHEMATC
