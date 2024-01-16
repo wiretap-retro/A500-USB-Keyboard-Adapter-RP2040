@@ -49,3 +49,8 @@ First off, a huge thank you to Nine for developing the amigahid-pico, as this de
 ## Miscellaneous
 This board is provided as-is and open source. It does not provide firmware and relies on a different project as linked above. I have personally built and tested this on my Amiga 500 Rev 6A with a custom mechanical keyboard utilizing QMK/VIA firmware.
 If you plan to sell this board, firmware is per the license at: https://github.com/borb/amigahid-pico/
+
+## Revisions
+Rev 2 - Current rev, corrected floating ground on logic conversion.
+Rev 1 - Corrected resistor pullup/pulldown. Depreciated.
+Rev 0 - Depreciated
