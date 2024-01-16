@@ -51,6 +51,6 @@ This board is provided as-is and open source. It does not provide firmware and r
 If you plan to sell this board, firmware is per the license at: https://github.com/borb/amigahid-pico/
 
 ## Revisions
-Rev 2 - Current rev, corrected floating ground on logic conversion.
-Rev 1 - Corrected resistor pullup/pulldown. Depreciated.
-Rev 0 - Depreciated
+* Rev 2 - Current rev, corrected floating ground on logic conversion.
+* Rev 1 - Corrected resistor pullup/pulldown. Depreciated.
+* Rev 0 - Depreciated
